@@ -1,0 +1,50 @@
+.container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+.studentList {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  gap: 20px;
+}
+
+.studentCard {
+  background: #020617;
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid #1e293b;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  transition: all 0.25s ease;
+}
+
+.studentCard:hover {
+  transform: translateY(-5px) scale(1.01);
+  border-color: #38bdf8;
+  box-shadow: 0 18px 40px rgba(56, 189, 248, 0.25);
+}
+
+.info {
+  font-size: 0.95rem;
+  margin: 6px 0;
+  color: #e5e7eb;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #38bdf8;
+}

@@ -1,0 +1,171 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.welcome {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.subText {
+  color: #555;
+  margin-top: 5px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #111;
+  color: white;
+  font-size: 14px;
+}
+
+.button:hover {
+  background: #333;
+}
+
+/* Page Container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  padding: 60px;
+}
+
+/* Header */
+.welcome {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.subText {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 45px;
+  flex-wrap: wrap;
+}
+
+/* Stat Card */
+.card {
+  flex: 1;
+  min-width: 220px;
+  background: linear-gradient(135deg, #f8f9ff, #eef1ff);
+  border-radius: 14px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.button {
+  background: linear-gradient(135deg, #000, #333);
+  color: white;
+  padding: 14px 26px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px) scale(1.03);
+  background: linear-gradient(135deg, #111, #444);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .welcome {
+    font-size: 26px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}

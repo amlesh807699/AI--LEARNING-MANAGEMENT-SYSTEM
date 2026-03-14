@@ -1,0 +1,125 @@
+.container {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* ===== HERO ===== */
+.hero {
+  padding: 90px 25px;
+  text-align: center;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.hero h1 {
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.hero p {
+  max-width: 620px;
+  margin: auto;
+  font-size: 16px;
+  color: #374151;
+}
+
+.heroBtns {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.heroBtns button {
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: #111827;
+  color: white;
+}
+
+.outline {
+  background: transparent;
+  color: #111827;
+  border: 2px solid #111827;
+}
+
+/* ===== SECTION ===== */
+.section {
+  padding: 70px 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+/* ===== CARDS ===== */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* ===== FEATURES ===== */
+.features {
+  background: #f9fafb;
+}
+
+.featureList {
+  max-width: 650px;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.featureList li {
+  font-size: 15px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #111827;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 22px;
+  font-size: 14px;
+}
+
+
+@media (max-width: 900px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+}
