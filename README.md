@@ -254,5 +254,12 @@ enrolled students
 add lesson of course
 <img width="1911" height="781" alt="Screenshot 2026-03-18 235745" src="https://github.com/user-attachments/assets/82b77245-a970-489e-a9eb-0e2f6ecda17b" />
 
+# now admin
+dashboard
+<img width="1909" height="762" alt="Screenshot 2026-03-19 000445" src="https://github.com/user-attachments/assets/60228b2a-ec0f-4459-998b-0cf3f0afb422" />
+user list
+<img width="1713" height="727" alt="Screenshot 2026-03-19 000457" src="https://github.com/user-attachments/assets/870d8084-d679-4bd8-a8a4-3bf2ae221a32" />
+
+same like there is list of teacher and students and course
 
 
